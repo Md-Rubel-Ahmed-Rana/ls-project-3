@@ -9,3 +9,58 @@ header{
     background-color: pink;
     padding: 5px;
 }
+
+
+
+#contact-section{
+    background-color: #231616db;
+    padding: 20px;
+    text-align: center;
+    height: 60vh;
+}
+
+form{
+    background-color: purple;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    height: 90%;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+input{
+    padding: 5px;
+}
+
+strong{
+    color: white;
+}
+
+button{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    width: 40%;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        background-color: purple;
+        width: 80%;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+}
