@@ -64,3 +64,20 @@ button{
         margin: 5px;
     }
 }
+
+#display-contact{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    border-bottom: 2px solid blue;
+}
