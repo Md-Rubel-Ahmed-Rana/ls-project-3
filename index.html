@@ -13,7 +13,7 @@
     </header>
     <main>
         <section id="contact-section">
-            <form>
+            <form onsubmit="event.preventDefault()">
                 <label for="name">
                     <strong>Name:</strong> <input type="text" name="name" id="name" placeholder="Enter name">
                 </label>
@@ -23,9 +23,11 @@
                 <label for="number">
                     <strong>Number:</strong> <input type="text" name="number" id="number" placeholder="Enter number">
                 </label>
-                <button>Save</button>
+                <button onclick="saveContact()">Save</button>
             </form>
         </section>
     </main>
+
+    <script src="./app.js"></script>
 </body>
 </html>
