@@ -3,36 +3,37 @@ body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background-color: #000096;
+    color: white;
 }
 header{
     text-align: center;
-    background-color: pink;
-    padding: 5px;
+    padding-top: 10px;
+    margin: 0%;
 }
-
+header h1{
+    margin: 0%;
+}
 
 
 #contact-section{
-    background-color: #231616db;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    height: 60vh;
+    height: 40vh;
 }
 
 form{
-    background-color: purple;
     width: 40%;
     margin: auto;
-    padding: 20px;
-    height: 90%;
+    padding: 10px;
+    height: 50%;
 }
 
 label {
     display: block;
     padding: 10px;
     font-size: 25px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin: 10px;
 }
 input{
     padding: 5px;
@@ -54,9 +55,12 @@ button{
 }
 
 @media screen and (max-width: 600px) {
+    #contact-section {
+        height: 55vh;
+    }
     form {
-        background-color: purple;
         width: 80%;
+        height: 60%;
     }
     label{
         display: flex;
@@ -66,7 +70,6 @@ button{
 }
 
 #display-contact{
-    background-color: aqua;
     padding: 10px;
     text-align: center;
     margin: auto;
