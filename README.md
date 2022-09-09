@@ -1,3 +1,2 @@
 # ls-project-3
-Local Storage Project
-Live Website: 
+Live Website: https://md-rubel-ahmed-rana.github.io/ls-project-3/
